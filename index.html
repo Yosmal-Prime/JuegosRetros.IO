@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Juegos Retro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Juegos Retro</h1>
+    </header>
+
+    <main>
+        <section class="games-list">
+            <article class="game-item">
+                <h2>Super Mario Bros</h2>
+                <img src="img/mario-bros-historia-copy.png" alt="Super Mario Bros" class="clickable">
+                <p>Plataforma: NES</p>
+                <p>Año: 1985</p>
+            </article>
+
+            <article class="game-item">
+                <h2>Las Leyendas de Zelda</h2>
+                <img src="img/L Zelda.jpg" alt="The Legend of Zelda" class="clickable">
+                <p>Plataforma: NES</p>
+                <p>Año: 1986</p>
+            </article>
+
+            <article class="game-item">
+                <h2>Sonic</h2>
+                <img src="img/Sonic.jpg" alt="Sonic the Hedgehog" class="clickable">
+                <p>Plataforma: Sega Genesis</p>
+                <p>Año: 1991</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Catálogo de Juegos Retro <br>Yosmal</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span id="closeModal" class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
